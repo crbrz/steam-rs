@@ -30,7 +30,7 @@ pub struct Game {
 
 #[derive(Deserialize, Serialize, Debug, Clone)]
 pub struct AvailableGameStats {
-    pub stats: Vec<Stat>,
+    pub stats: Option<Vec<Stat>>,
     pub achievements: Vec<Achievement>,
 }
 
