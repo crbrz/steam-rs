@@ -51,7 +51,7 @@ pub struct Achievement {
     #[serde(rename = "displayName")]
     pub display_name: String,
     pub hidden: i8,
-    pub description: String,
+    pub description: Option<String>,
     pub icon: String,
     #[serde(rename = "icongray")]
     pub icon_gray: String,
